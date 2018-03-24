@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         case .date: print("Date logic")
         case .location: changeBackground()
         }
+        UIApplication.shared.applicationIconBadgeNumber = 0
     }
     
     func changeBackground() {
